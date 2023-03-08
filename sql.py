@@ -11,7 +11,7 @@ mydb = mysql.connector.connect(
 print(mydb)
 mycursor = mydb.cursor(buffered=True)
 
-mycursor.execute("CREATE DATABASE stem")
+mycursor.execute("CREATE DATABASE stem1")
 mycursor.execute("SHOW DATABASES")
 
 for x in mycursor:
